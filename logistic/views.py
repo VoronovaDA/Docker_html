@@ -23,5 +23,5 @@ class StockViewSet(ModelViewSet):
 
 
 @api_view(['GET'])
-def sample_view(request):
-    return Response('Hello world!')
+def test_page(request):
+    return Response('Проверка автоматического деплоя')
