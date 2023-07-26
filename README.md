@@ -18,7 +18,7 @@
 Создать Docker-образ:
 
 ```bash
-ocker build -t <name> .
+docker build -t <name> .
 ```
 
 Запустить Docker-container:
